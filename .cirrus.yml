@@ -5,7 +5,7 @@ env:
 
 
 task:
-  name: Test
+  name: LineageOS
   skip: $CIRRUS_BRANCH == 'main'
   only_if: $CIRRUS_REPO_OWNER == 'ROM-builders'
   timeout_in: 30m
